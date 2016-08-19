@@ -44,12 +44,14 @@ Such a descriptor would have countless applications:
 - Predicting length of stay
 - Cohort selection and recruitment for clinical trials
 - Future risk detection
+- Survival analysis and development of risk scores
 - Anomaly detection (eg. vitals monitoring)
 - Recommendation of treatment
 - Disease progression modeling
 - Unwanted readmission prediction
 - Artifical assistants for physicians
-- Parsing and mining of biomedical literature and medical notes and narratives
+- Parsing and mining of biomedical literature and medical notes and narratives.
+
 To name only some of the obvious ones.
 
 
@@ -74,14 +76,23 @@ Disclaimer: these are, in my personal opinion, the papers that addressed the cha
 
 ### Other papers of interest (to read, assess, and complete)
 
-- Computational discovery of physiomes in critically ill children using deep learning
-- Multi-task Learning with Weak Class Labels: Leveraging iEEG to Detect Cortical Lesions in Cryptogenic Epilepsy
-- Deep Survival Analysis
+- [Multi-task Learning with Weak Class Labels: Leveraging iEEG to Detect Cortical Lesions in Cryptogenic Epilepsy](https://arxiv.org/abs/1608.00148)
+- [Deep Survival Analysis](https://arxiv.org/abs/1608.02158v1)
 - Multi-layer Representation Learning for Medical Concepts
-- Rubik: Knowledge Guided Tensor Factorization and Completion for Health Data Analytics
+- [Deep Survival: A Deep Cox Proportional Hazards Network](https://arxiv.org/abs/1606.00931)
+- [Rubik: Knowledge Guided Tensor Factorization and Completion for Health Data Analytics](http://dl.acm.org/citation.cfm?id=2783395&CFID=827394832&CFTOKEN=20057722)
 - Towards Heterogeneous Temporal Clinical Event Pattern Discovery: A Convolutional Approach
-- Transferring Knowledge from Text to Predict Disease Onset
-- Unsupervised Pattern Discovery in Electronic Health Care Data Using Probabilistic Clustering Models
+- [Transferring Knowledge from Text to Predict Disease Onset](https://arxiv.org/abs/1608.02071)
+- [Unsupervised Pattern Discovery in Electronic Health Care Data Using Probabilistic Clustering Models](http://dl.acm.org/citation.cfm?id=2110408)
+
+## Datasets
+
+Most common public datasets used to test methods in the deep computational phenotyping community:
+- [MIMIC-II](https://physionet.org/mimic2/)
+- [MIMIC-III](https://physionet.org/physiobank/database/mimic3cdb/): deidentified clinical care data collected at Beth Israel Deaconess Medical Center from 2001 to 2012. It contains over 58,000 hospital admission records of 38,645 adults and 7,875 neonates.
+- Physionet challenge 2012: collection of multivariate clinical time series from 8000 ICU records. Each record is a multivariate time series of roughly 48 hours and contains 33 variables such as Albumin, heart-rate, glucose etc.
+The entire [Physionet](https://physionet.org/) database 
+
 
 ## Future work
 
@@ -89,4 +100,7 @@ Disclaimer: these are, in my personal opinion, the papers that addressed the cha
 - List of common freely available datasets with links used in the field and benchmarks to-date.
 - List of useful workshop, conferences
 - Do a full review of each paper
-- There are to my knowledge 40-50 papers to know in this field. I will enlarge, consolidate and sort this enlarged list. 
+- There are by my estimation 40-50 papers to know in this field. I will enlarge, consolidate and sort this list.
+
+
+
